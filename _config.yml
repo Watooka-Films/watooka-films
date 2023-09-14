@@ -26,7 +26,7 @@ language: en
 
 # Build settings
 markdown: kramdown
-theme: jekflix
+remote_theme: Watooka-Films/jekflix-watooka
 highlighter: rouge
 permalink: /:title/
 collections:
