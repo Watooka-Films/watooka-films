@@ -19,16 +19,68 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+#Advanced Settings 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://watookafilms.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+language: en
 
 # Build settings
 markdown: kramdown
-remote_theme: thiagorossener/jekflix-template
+theme: jekflix
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
+
+
+
+#Plugins
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+#Menu
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Services
+    url: /services
+  - title: Feed
+    url: /feed.xml
+
+#Social Media
+twitter_username: watookafilms
+instagram_username: watookafilms
+linkedin_username: watookafilms
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
