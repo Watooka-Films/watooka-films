@@ -53,8 +53,10 @@ menu:
     url: /about
   - title: Services
     url: /services
-  - title: Feed
-    url: /feed.xml
+  - title: Survey
+    url: /nexus-snapshot
+  - title: Privacy
+    url: /privacy
 
 #Social Media
 twitter_username: watookafilms
