@@ -1,9 +1,9 @@
 ---
 layout: post
 date: 2023-09-14 12:10:34 -0500
-categories: jekyll update
+categories: watooka update
 title: In The Beginning
-subtitle: Let there be Bert
+subtitle: Allow us to reintroduce ourselves
 description: >-
   Introduction to Watooka films
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
@@ -16,4 +16,7 @@ author: Team Watooka
 paginate: true
 ---
 
-Here we go. WatookaFilms.com is coming soon. 
+Hi,
+This is as good a time as any to launch watookafilms.com. The site will be somewhat under construction over the next couple weeks as we build out our services page among other things.
+
+Once again welcome and come along on this journey.
