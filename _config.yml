@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Watooka Films | Caribbean Dreams to Screen
+title: Watooka Films | Dream to Screen
 email: info@watookafilms.com
 description: >- # this means to ignore newlines until "baseurl:"
   Film and Television Production, Original Content, Location Fixer, Production Management, Creative Consulting, Directing Services, Director, Cinemeatography, Production Services, Jamaica, Caribbean
